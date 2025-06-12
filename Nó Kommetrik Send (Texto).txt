@@ -1,90 +1,17 @@
 {
-  "nodes": [
-    {
-      "parameters": {
-        "method": "POST",
-        "url": "=https://ia.kommetrik.com.br/api/executions",
-        "sendHeaders": true,
-        "headerParameters": {
-          "parameters": [
-            {
-              "name": "Authorization",
-              "value": "=Bearer "
-            }
-          ]
-        },
-        "sendBody": true,
-        "contentType": "multipart-form-data",
-        "bodyParameters": {
-          "parameters": [
-            {
-              "name": "domain",
-              "value": "={{ $('Webhook').first().json.body[\"account[_links][self]\"] }}"
-            },
-            {
-              "name": "kommo_account_id",
-              "value": "={{ $('Webhook').first().json.body['account[id]'] }}"
-            },
-            {
-              "name": "chat_id",
-              "value": "={{ $('Webhook').first().json.body['message[add][0][chat_id]'] }}"
-            },
-            {
-              "name": "entity_id",
-              "value": "={{ $('Webhook').first().json.body['message[add][0][entity_id]'] }}"
-            },
-            {
-              "name": "element_type",
-              "value": "={{ $('Webhook').first().json.body['message[add][0][element_type]'] }}"
-            },
-            {
-              "name": "user_name",
-              "value": "={{ $('Webhook').first().json.body['message[add][0][author][name]'] }}"
-            },
-            {
-              "name": "text",
-              "value": "={{ $json.text }}"
-            },
-            {
-              "name": "author_id",
-              "value": "={{ $('Webhook').first().json.body['message[add][0][author][id]'] }}"
-            },
-            {
-              "name": "talk_id",
-              "value": "={{ $('Webhook').first().json.body['message[add][0][talk_id]'] }}"
-            },
-            {
-              "name": "contact_id",
-              "value": "={{ $('Webhook').first().json.body['message[add][0][contact_id]'] }}"
-            },
-            {
-              "name": "token_kommo",
-              "value": "={{ $('Kommo2').first().json.token }}"
-            }
-          ]
-        },
-        "options": {}
-      },
-      "type": "n8n-nodes-base.httpRequest",
-      "typeVersion": 4.2,
-      "position": [
-        1760,
-        920
-      ],
-      "id": "ff3f4a23-db73-47fa-b93e-b16207ef2de3",
-      "name": "Envia mensagem na Kommo"
-    }
-  ],
-  "connections": {
-    "Envia mensagem na Kommo": {
-      "main": [
-        []
-      ]
-    }
+  "empresa_confiabilidade": {
+    "pergunta": "A Paytime é confiável?",
+    "resposta": "Somos uma fintech regulamentada pelo Banco Central, com milhares de parceiros ativos em todo Brasil. Pode verificar nossos cases de sucesso no site oficial.",
+    "contexto_adicional": "Mencionar tempo de mercado e clientes conhecidos se necessário"
   },
-  "pinData": {},
-  "meta": {
-    "templateCredsSetupCompleted": true,
-    "instanceId": "db83f15dd1d16da3b9d8b44acd6c852c089540e2ade29f9ed8784dd0477fb994"
+  "tempo_implementacao": {
+    "pergunta": "Quanto tempo demora para começar?",
+    "resposta": "Após aprovação da documentação, em média 7 a 10 dias úteis você já está operando com seus primeiros clientes.",
+    "contexto_adicional": "Enfatizar que o processo é ágil comparado à concorrência"
+  },
+  "experiencia_necessaria": {
+    "pergunta": "Preciso ter experiência no setor financeiro?",
+    "resposta": "Não é necessário conhecimento técnico. Oferecemos treinamento completo sobre produtos, vendas e suporte contínuo.",
+    "contexto_adicional": "Dar exemplos de parceiros que vieram de outras áreas"
   }
 }
