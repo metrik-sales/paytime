@@ -1,0 +1,20 @@
+{
+  "preco_alto": {
+    "objecao": "Está muito caro",
+    "resposta_primaria": "Entendo sua preocupação com o investimento. Vamos pensar assim - é o valor para ter sua própria fintech completa. Uma franquia tradicional custa 3x mais e tem potencial de ganho limitado.",
+    "resposta_alternativa": "Temos o Plano GO, com investimento abaixo de R$2.000. Pode ser uma forma inteligente de começar e depois fazer upgrade quando se sentir mais confortável.",
+    "contexto": "Sempre comparar com outros investimentos e oferecer alternativa"
+  },
+  "nao_conhece_mercado": {
+    "objecao": "Não conheço ninguém do segmento",
+    "resposta_primaria": "Essa preocupação é super comum! Mas olha que interessante - todo estabelecimento comercial precisa de maquininha. Padaria, farmácia, salão, restaurante, loja... Os clientes estão literalmente em todos os lugares.",
+    "resposta_secundaria": "Além disso, oferecemos treinamento completo de prospecção e materiais de apoio para você abordar os clientes.",
+    "contexto": "Tranquilizar sobre abundância de mercado"
+  },
+  "mercado_competitivo": {
+    "objecao": "Mercado muito competitivo",
+    "resposta_primaria": "Verdade, o mercado é grande justamente porque tem muita demanda! O diferencial aqui é que você terá sua própria marca, não será mais um representante.",
+    "resposta_secundaria": "Você vira o dono da fintech, não apenas vendedor. Isso muda completamente a abordagem e credibilidade com os clientes.",
+    "contexto": "Transformar competição em oportunidade"
+  }
+}
