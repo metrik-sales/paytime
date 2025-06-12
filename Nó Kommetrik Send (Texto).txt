@@ -15,3 +15,21 @@
     "contexto_adicional": "Dar exemplos de parceiros que vieram de outras áreas"
   }
 }
+
+{
+  "potencial_ganho": {
+    "pergunta": "Qual o potencial de ganho mensal?",
+    "resposta": "Varia conforme dedicação e rede de relacionamento. Temos parceiros faturando de R$3.000 a R$50.000 mensais.",
+    "contexto_adicional": "Sempre mencionar que depende do esforço individual"
+  },
+  "flexibilidade_local": {
+    "pergunta": "Posso trabalhar de qualquer lugar?",
+    "resposta": "Sim, o negócio é 100% digital. Você pode atender clientes de qualquer cidade via WhatsApp e nosso sistema.",
+    "contexto_adicional": "Destacar vantagem da operação remota"
+  },
+  "exclusividade_territorio": {
+    "pergunta": "Há exclusividade territorial?",
+    "resposta": "Não trabalhamos com exclusividade. O mercado de pagamentos é gigantesco e comporta vários parceiros na mesma região.",
+    "contexto_adicional": "Explicar que colaboração entre parceiros é incentivada"
+  }
+}
