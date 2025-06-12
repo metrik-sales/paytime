@@ -1,0 +1,22 @@
+{
+  "lead_qualificado_principal": {
+    "situacao": "Lead com orçamento para plano principal",
+    "script": "Perfeito! Vou conectar você com {nome_especialista}, um dos nossos consultores comerciais. Ele vai detalhar todo o processo e negociar da melhor forma para você.",
+    "confirmacao": "Pode ser por este mesmo número do WhatsApp?",
+    "prazo": "Ele deve entrar em contato ainda hoje ou no máximo amanhã de manhã.",
+    "status_crm": "Lead Ganho"
+  },
+  "lead_plano_go": {
+    "situacao": "Lead interessado no plano de entrada",
+    "script": "Entendi perfeitamente sua situação. O Plano GO pode ser ideal para você começar. É uma forma inteligente de entrar no mercado.",
+    "encaminhamento": "Posso conectar você com um consultor especializado neste plano?",
+    "diferencial": "Muitos dos nossos parceiros de maior sucesso começaram exatamente assim.",
+    "status_crm": "Lead Plano GO"
+  },
+  "duvidas_tecnicas": {
+    "situacao": "Dúvidas complexas que fogem do escopo do SDR",
+    "script": "Essa é uma pergunta excelente e bem técnica! Para te dar todos os detalhes precisos, vou conectar você com nosso especialista técnico.",
+    "beneficio": "Ele pode explicar com calma e ainda mostrar o sistema funcionando na prática.",
+    "confirmacao": "Pode ser uma conversa rápida por vídeo?"
+  }
+}
